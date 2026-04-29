@@ -28,7 +28,7 @@ requirements:
 
 test:
   imports:
-    - azure_mgmt_resource_deploymentstacks
+    - azure.mgmt.resource.deploymentstacks
   commands:
     - pip check
   requires:
